@@ -14,6 +14,16 @@
 > - 后端由 `core/daemon.mjs` 只读解析本地对话 SQLite 数据库得到子 Agent 调用树；命令行只显示 `git status`、`npm test` 等安全命令类别，不显示参数、Token 或网址。
 > - 可在 `user/config.json` 中通过 `"modules": { "subagentProgress": false }` 关闭。
 >
+> **效果预览**
+>
+> 展开状态（点击箭头后，逐个显示子 Agent 的状态、步数、调用次数与耗时）：
+>
+> ![子 Agent 协作任务条：展开状态](assets/preview-subagent-progress-expanded.png)
+>
+> 收起状态（默认，仅在输入框上方显示一行汇总）：
+>
+> ![子 Agent 协作任务条：收起状态](assets/preview-subagent-progress-collapsed.png)
+>
 > **运行测试**
 >
 > ```bash
