@@ -1,8 +1,8 @@
 {
   "name": "antigravity-subagent-progress-dock",
-  "version": "5.1.1-subagent.1",
+  "version": "5.1.4-subagent.1",
   "private": true,
-  "description": "Unofficial modified version of Anarcadia/chuanban-antigravity-theme-patch v5.1.1 that adds a sub-agent progress strip.",
+  "description": "Unofficial modified version of Anarcadia/chuanban-antigravity-theme-patch v5.1.4 that adds a sub-agent progress strip.",
   "type": "module",
   "engines": { "node": ">=22.13.0" },
   "scripts": {
