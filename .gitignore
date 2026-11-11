@@ -1,0 +1,15 @@
+dist/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+*.db
+*.db-wal
+*.db-shm
+backups/
+core.prev/
+auto-sync-state.json
+.DS_Store
+Thumbs.db
